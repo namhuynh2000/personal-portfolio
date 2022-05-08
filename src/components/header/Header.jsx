@@ -3,6 +3,7 @@ import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
+import Nav from '../nav/Nav'
 
 function Header() {
   return (
@@ -21,7 +22,6 @@ function Header() {
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
-
       </div>
     </header>
   )
