@@ -11,7 +11,7 @@ function Header() {
         <h5>Hello I'm</h5>
         <h1>Huynh Quang Nam</h1>
         <h5 className="text-light">
-          Fullstack Developer
+          Front-end Developer (main) - UI/UX Designer
         </h5>
         <CTA />
         <HeaderSocials />

@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import { FaAward } from 'react-icons/fa'
-import { FiUsers } from 'react-icons/fi'
+import { BiCodeAlt } from 'react-icons/bi'
 import { IoLibrary } from 'react-icons/io5'
 
 function About() {
@@ -21,21 +21,24 @@ function About() {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>3+ Year Working</small>
+              <small>4+ Year Learn Software Engineering</small>
             </article>
             <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worlwide</small>
+              <BiCodeAlt className='about__icon' />
+              <h5>Skills</h5>
+              <small>UI/UX, Front-end, Back-end, Database</small>
             </article>
             <article className='about__card'>
               <IoLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis odit incidunt quae in quasi cupiditate, doloremque vitae corrupti maxime, consectetur quam, facere suscipit autem voluptate? Sint enim debitis amet.
+            I work as the creative front-end Developer. I love create polished and
+            meaningful user experiences. Understanding of software engineering
+            paradigms and frameworks for JavaScript, Node.js, C++, . I'm ready
+            to collaborate with new opportunities and challenges.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
