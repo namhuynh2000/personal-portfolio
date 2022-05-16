@@ -9,47 +9,50 @@ import IMG6 from '../../assets/portfolio6.jpg'
 
 const data = [
   {
-    id: 1,
-    image: IMG1,
-    title: 'image_1',
-    github: '',
-    demo: ''
+    id: 6,
+    image: IMG6,
+    title: `Personal Portfolio`,
+    github: 'https://github.com/namhuynh2000/personal-portfolio',
+    demo: 'https://namhuynh2000.github.io/personal-portfolio/'
   },
   {
-    id: 2,
-    image: IMG2,
-    title: 'image_2',
-    github: '',
-    demo: ''
+    id: 1,
+    image: IMG1,
+    title: 'Covid 19 Tracker',
+    github: 'https://github.com/namhuynh2000/Covid-19-Tracker',
+    demo: 'https://namhuynh2000.github.io/Covid-19-Tracker/'
   },
+
   {
     id: 3,
     image: IMG3,
-    title: 'image_3',
-    github: '',
-    demo: ''
+    title: 'Music Player',
+    github: 'https://github.com/namhuynh2000/Music_Player',
+    demo: 'https://namhuynh2000.github.io/Music_Player/'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'image_4',
-    github: '',
-    demo: ''
+    title: 'Book Store',
+    github: 'https://github.com/namhuynh2000/Web_BookStore',
+    demo: 'https://www.youtube.com/watch?v=mWCOY9TfIec&feature=youtu.be'
+  },
+
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Paint',
+    github: 'https://github.com/namhuynh2000/Paint',
+    demo: '#portfolio'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'image_5',
-    github: '',
-    demo: ''
+    title: 'Batch Rename',
+    github: 'https://github.com/namhuynh2000/Batch-Rename',
+    demo: '#portfolio'
   },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'image_6',
-    github: '',
-    demo: ''
-  },
+
 ]
 
 function Portfolio() {
@@ -67,13 +70,13 @@ function Portfolio() {
               <h3>{item.title}</h3>
               <div className="portfolio__item-cta">
                 <a href={item.github} className='btn' target='_blank'>Github</a>
-                <a href={item.demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={item.demo} className='btn btn-primary' target={item.demo === '#portfolio' ? '_self' : '_blank'}>Live Demo</a>
               </div>
             </article>
           )
         })}
       </div>
-    </section>
+    </section >
   )
 }
 

@@ -21,6 +21,13 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 
+.client__avatar img {
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: 55% 0%;
+}
+
 .client__review {
     color: var(--color-light);
     font-weight: 300;

@@ -17,34 +17,35 @@ import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
 
+
 const data = [
   {
     avatar: AVTR1,
-    name: 'Avatar1',
+    name: 'Playing Guitar',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus praesentium eligendi totam ducimus itaque voluptates. In illum, natus ducimus dolorum harum accusamus maxime, modi eveniet officia voluptatibus a accusantium?'
   },
   {
     avatar: AVTR2,
-    name: 'Avatar2',
+    name: 'Singing',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus praesentium eligendi totam ducimus itaque voluptates. In illum, natus ducimus dolorum harum accusamus maxime, modi eveniet officia voluptatibus a accusantium?'
   },
   {
     avatar: AVTR3,
-    name: 'Avatar3',
+    name: 'Photographing',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus praesentium eligendi totam ducimus itaque voluptates. In illum, natus ducimus dolorum harum accusamus maxime, modi eveniet officia voluptatibus a accusantium?'
   },
   {
     avatar: AVTR4,
-    name: 'Avatar4',
+    name: 'Traveling',
     review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa temporibus praesentium eligendi totam ducimus itaque voluptates. In illum, natus ducimus dolorum harum accusamus maxime, modi eveniet officia voluptatibus a accusantium?'
   }
 ]
 
 function Testimonials() {
   return (
-    <section id='testimonials'>
-      <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+    <section id='Hobbies'>
+      <h5>Personal Details</h5>
+      <h2>My Hobbies</h2>
       <Swiper className="container testimonials__container"
         // install Swiper modules
         modules={[Pagination]}
