@@ -23,6 +23,10 @@ function Footer() {
         <a href="https://www.instagram.com/ruins_huynh/" target='_blank'><BsInstagram /></a>
         <a href="https://twitter.com/NamHunh79209758" target='_blank'><BsTwitter /></a>
       </div>
+
+      <div className='footer__copyright'>
+        <small>A portfolio website coded by ReactJS by Ruins Huynh &copy; 2022. Reference: Egator.</small>
+      </div>
     </footer>
   )
 }

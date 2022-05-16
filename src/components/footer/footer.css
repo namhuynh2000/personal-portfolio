@@ -29,7 +29,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .footer__socials a {
@@ -43,6 +43,11 @@ footer {
 
 .footer__socials a:hover {
     color: var(--color-primary);
+}
+
+.footer__copyright {
+    margin-bottom: 4rem;
+    color: var(--color-bg);
 }
 
 /* ===================== MEDIA QUERIES (MEDIUM DEVICES) =================== */
