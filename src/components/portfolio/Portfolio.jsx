@@ -6,14 +6,29 @@ import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
+import IMG7 from '../../assets/portfolio7.jpg'
+import IMG8 from '../../assets/portfolio8.JPG'
 
 const data = [
   {
+    id: 8,
+    image: IMG8,
+    title: `Super chat`,
+    github: 'https://github.com/namhuynh2000/superchat',
+    demo: 'https://superchat-adde4.web.app/'
+  },
     id: 6,
     image: IMG6,
     title: `Personal Portfolio`,
     github: 'https://github.com/namhuynh2000/personal-portfolio',
     demo: 'https://namhuynh2000.github.io/personal-portfolio/'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Page 404',
+    github: 'https://github.com/namhuynh2000/page-404',
+    demo: 'https://namhuynh2000.github.io/page-404'
   },
   {
     id: 1,
@@ -52,7 +67,7 @@ const data = [
     github: 'https://github.com/namhuynh2000/Batch-Rename',
     demo: '#portfolio'
   },
-
+  
 ]
 
 function Portfolio() {

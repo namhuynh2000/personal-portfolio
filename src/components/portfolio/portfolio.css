@@ -18,9 +18,9 @@
 }
 
 .portfolio__item-image img {
-    border-radius: 1.5rem;
+    /* border-radius: 5rem; */
     height: 14rem;
-    /* object-fit: cover; */
+    object-fit: cover;
     overflow: hidden;
 }
 
