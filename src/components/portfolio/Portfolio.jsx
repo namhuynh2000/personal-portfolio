@@ -17,6 +17,7 @@ const data = [
     github: 'https://github.com/namhuynh2000/superchat',
     demo: 'https://superchat-adde4.web.app/'
   },
+  {
     id: 6,
     image: IMG6,
     title: `Personal Portfolio`,
@@ -67,7 +68,7 @@ const data = [
     github: 'https://github.com/namhuynh2000/Batch-Rename',
     demo: '#portfolio'
   },
-  
+
 ]
 
 function Portfolio() {
