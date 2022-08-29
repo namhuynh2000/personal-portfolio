@@ -8,7 +8,7 @@ function Experience() {
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container experience__container">
-        
+
 
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
@@ -27,11 +27,19 @@ function Experience() {
                 <small className='text-light'>Proficient</small>
               </div>
             </article>
+
             <article className='experience__details'>
               <MdVerified className='experience__details-icon' />
               <div>
                 <h4>NPM/YARN</h4>
                 <small className='text-light'>Proficient</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <MdVerified className='experience__details-icon' />
+              <div>
+                <h4>Svelte</h4>
+                <small className='text-light'>Knowledgeable</small>
               </div>
             </article>
             <article className='experience__details'>
@@ -52,17 +60,9 @@ function Experience() {
               <MdVerified className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <MdVerified className='experience__details-icon' />
-              <div>
-                <h4>NextJS</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
-
           </div>
         </div>
 
@@ -86,13 +86,6 @@ function Experience() {
             <article className='experience__details'>
               <MdVerified className='experience__details-icon' />
               <div>
-                <h4>Redis</h4>
-                <small className='text-light'>Knowledgeable</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <MdVerified className='experience__details-icon' />
-              <div>
                 <h4>Elastic Search</h4>
                 <small className='text-light'>Knowledgeable</small>
               </div>
@@ -107,17 +100,25 @@ function Experience() {
             <article className='experience__details'>
               <MdVerified className='experience__details-icon' />
               <div>
-                <h4>Postgresql</h4>
-                <small className='text-light'>Knowledgeable</small>
+                <h4>Firebase</h4>
+                <small className='text-light'>Basic</small>
               </div>
             </article>
             <article className='experience__details'>
               <MdVerified className='experience__details-icon' />
               <div>
-                <h4>MySQL</h4>
+                <h4>Postgresql</h4>
                 <small className='text-light'>Basic</small>
               </div>
             </article>
+            <article className='experience__details'>
+              <MdVerified className='experience__details-icon' />
+              <div>
+                <h4>Redis</h4>
+                <small className='text-light'>Basic</small>
+              </div>
+            </article>
+
           </div>
         </div>
 

@@ -37,7 +37,7 @@ function Contact() {
             <h4>Messenger</h4>
             <h5>Nam Huỳnh</h5>
             <div className="contact__option-link">
-              <a href="https://messenger.com/ruins.huynh" target='_blank'>Send a message</a>
+              <a href="https://messenger.com/ruins.huynh" rel="noreferrer" target='_blank'>Send a message</a>
             </div>
           </article>
           <article className='contact__option'>
